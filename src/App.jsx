@@ -12,7 +12,8 @@ import { MultistepForm } from "./10_MultistepForm";
 import { FormBuilder } from "./11_FormBuilder";
 import { SearchFilter } from "./12_SearchFilter";
 import { Clock } from "./13_Clock";
+import { CountryInfo } from "./14_CountryInfo";
 
 export default function App() {
-  return <Clock />;
+  return <CountryInfo />;
 }
