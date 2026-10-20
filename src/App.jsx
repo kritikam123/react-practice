@@ -13,7 +13,9 @@ import { FormBuilder } from "./11_FormBuilder";
 import { SearchFilter } from "./12_SearchFilter";
 import { Clock } from "./13_Clock";
 import { CountryInfo } from "./14_CountryInfo";
+import { TextInput } from "./16_TextInput";
+import { VideoPlayer } from "./17_VideoPlayer";
 
 export default function App() {
-  return <CountryInfo />;
+  return <VideoPlayer />;
 }
