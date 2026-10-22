@@ -15,7 +15,9 @@ import { Clock } from "./13_Clock";
 import { CountryInfo } from "./14_CountryInfo";
 import { TextInput } from "./16_TextInput";
 import { VideoPlayer } from "./17_VideoPlayer";
+import { FieldNotes } from "./18_FieldNotes";
+import { ClickOutside } from "./19_ClickOutside";
 
 export default function App() {
-  return <VideoPlayer />;
+  return <ClickOutside />;
 }
