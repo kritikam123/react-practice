@@ -17,7 +17,13 @@ import { TextInput } from "./16_TextInput";
 import { VideoPlayer } from "./17_VideoPlayer";
 import { FieldNotes } from "./18_FieldNotes";
 import { ClickOutside } from "./19_ClickOutside";
+import { AuthProvider, Main, NavBar } from "./22_Navbar";
 
 export default function App() {
-  return <ClickOutside />;
+  return (
+    <AuthProvider>
+      <NavBar />
+      <Main />
+    </AuthProvider>
+  );
 }
