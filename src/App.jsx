@@ -23,12 +23,14 @@ import {
   Greeting,
   LanguageSwitcher,
 } from "./23_Translations";
+import { TabProvider, TabTrigger, TabContent } from "./24_TabsIntro";
+import { Newsfeed, VideoItem, VideoPlaybackProvider } from "./25_Newsfeed";
 
 export default function App() {
   return (
-    <LanguageProvider>
-      <LanguageSwitcher />
-      <Greeting />
-    </LanguageProvider>
+   <VideoPlaybackProvider>
+    <VideoItem />
+    <Newsfeed />
+   </VideoPlaybackProvider>
   );
 }
