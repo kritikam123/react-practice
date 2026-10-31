@@ -25,12 +25,9 @@ import {
 } from "./23_Translations";
 import { TabProvider, TabTrigger, TabContent } from "./24_TabsIntro";
 import { Newsfeed, VideoItem, VideoPlaybackProvider } from "./25_Newsfeed";
+import { TaskManager, reducer } from "./26_TaskManager";
+import { ShoppingCart } from "./27_AddToCart";
 
 export default function App() {
-  return (
-   <VideoPlaybackProvider>
-    <VideoItem />
-    <Newsfeed />
-   </VideoPlaybackProvider>
-  );
+  return <ShoppingCart />;
 }
