@@ -27,7 +27,8 @@ import { TabProvider, TabTrigger, TabContent } from "./24_TabsIntro";
 import { Newsfeed, VideoItem, VideoPlaybackProvider } from "./25_Newsfeed";
 import { TaskManager, reducer } from "./26_TaskManager";
 import { ShoppingCart } from "./27_AddToCart";
+import { CounterWithUndoRedo } from "./28_CounterWithUndoRedo";
 
 export default function App() {
-  return <ShoppingCart />;
+  return <CounterWithUndoRedo />;
 }
