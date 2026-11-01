@@ -25,10 +25,8 @@ import {
 } from "./23_Translations";
 import { TabProvider, TabTrigger, TabContent } from "./24_TabsIntro";
 import { Newsfeed, VideoItem, VideoPlaybackProvider } from "./25_Newsfeed";
-import { TaskManager, reducer } from "./26_TaskManager";
-import { ShoppingCart } from "./27_AddToCart";
-import { CounterWithUndoRedo } from "./28_CounterWithUndoRedo";
+import { LocalizedPrimeNumbers } from "./29_LocalizedPrimeNumbers";
 
 export default function App() {
-  return <CounterWithUndoRedo />;
+  return <LocalizedPrimeNumbers />;
 }
