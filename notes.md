@@ -1,0 +1,2 @@
+1. className is used to apply css classes to jsx elements. class is used in HTML class attaribute and className is used in jsx. 
+3. key={user.id} is better then key = {index} because in index array can be changed and modified in various situation but user.id has its own uniue identity which cannot be changed.

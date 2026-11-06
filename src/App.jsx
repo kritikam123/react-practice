@@ -3,8 +3,6 @@ import { Card } from "./02_function";
 import { Children } from "./03_children";
 import { Limit } from "./04_CharacterLimit";
 import { Light } from "./05_LightSwitch";
-import { AdLight } from "./06_AdLightSwitch";
-import { Counter } from "./07_Counter";
 import { LimitedTextInput } from "./08_LimitedTextInput";
 import "./App.css";
 import { PasswordInput } from "./09_PasswordInput";
@@ -23,10 +21,10 @@ import {
   Greeting,
   LanguageSwitcher,
 } from "./23_Translations";
-import { TabProvider, TabTrigger, TabContent } from "./24_TabsIntro";
-import { Newsfeed, VideoItem, VideoPlaybackProvider } from "./25_Newsfeed";
-import { LocalizedPrimeNumbers } from "./29_LocalizedPrimeNumbers";
+import { DataTable } from "./30_DataTable";
+import { Counter } from "./32_Counter";
+import { ControlledInput } from "./33_ControlledInput";
 
 export default function App() {
-  return <LocalizedPrimeNumbers />;
+  return <ControlledInput />;
 }
